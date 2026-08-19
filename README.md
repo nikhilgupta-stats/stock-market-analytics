@@ -35,6 +35,8 @@ Investors and analysts need to understand not just which stocks performed well, 
 - **Risk-adjusted metric is simplified**: cumulative return ÷ volatility, not a true Sharpe ratio (no risk-free rate subtracted, not annualized).
 
 ## Project Structure
+
+```
 - stock-market-analytics/
 ├── README.md
 ├── notebooks/
@@ -42,6 +44,7 @@ Investors and analysts need to understand not just which stocks performed well, 
 └── excel/
 └── stock_summary.xlsx
 
+```
 
 ## Excel Workbook Contents
 - **Summary** — All 501 tickers ranked by cumulative return, with volatility and average volume; includes a volatility bar chart (Top 15 most volatile stocks)
