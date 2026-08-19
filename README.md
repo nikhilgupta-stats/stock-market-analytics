@@ -37,7 +37,7 @@ Investors and analysts need to understand not just which stocks performed well, 
 ## Project Structure
 
 ```
-- stock-market-analytics/
+stock-market-analytics/
 ├── README.md
 ├── notebooks/
 │ └── stock-analysis.ipynb
