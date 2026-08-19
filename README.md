@@ -30,8 +30,12 @@ Investors and analysts need to understand not just which stocks performed well, 
 - The most volatile stocks in the dataset (SNDK, COIN, APP, HOOD, MRNA) span crypto, fintech, and high-growth names — largely distinct from the top performers by raw return.
 - Mega-cap tech stocks (AAPL, MSFT, GOOGL, META, AMZN) show moderate positive correlation with each other (~0.5–0.7) in daily returns, while KHC and PCG show weak correlation with the broader group, consistent with their sector/situation-specific drivers rather than broad market movement.
 
+## Limitations
+- **Survivorship bias**: this analysis uses the current S&P 500 constituent list applied retroactively across 2015–2025. Companies removed from the index during this period (acquired, delisted, or dropped) are not included, which likely inflates average returns and understates downside risk relative to the index's actual historical composition.
+- **Risk-adjusted metric is simplified**: cumulative return ÷ volatility, not a true Sharpe ratio (no risk-free rate subtracted, not annualized).
+
 ## Project Structure
-stock-market-analytics/
+- stock-market-analytics/
 ├── README.md
 ├── notebooks/
 │ └── stock-analysis.ipynb
