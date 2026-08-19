@@ -19,6 +19,11 @@ Investors and analysts need to understand not just which stocks performed well, 
 - **Python** (Pandas) — Multi-file data ingestion, cleaning, and all calculations (returns, volatility, moving averages, correlation)
 - **Excel** — Tables, pivoted comparison views, and charts (line charts, bar chart, conditional-formatting heatmap) as the final deliverable
 
+## How to Run
+1. Download the dataset from Kaggle (link above) and place the per-ticker CSVs in `data/SP500_Data_10Y/`
+2. Install dependencies: `pip install pandas openpyxl`
+3. Run `notebooks/stock-analysis.ipynb` top to bottom — it reads the CSVs, computes all metrics, and writes `excel/stock_summary.xlsx`
+
 ## Dataset
 [S&P 500 Stocks — Daily Historical Data (10 Years)](https://www.kaggle.com/datasets/innacampo/s-and-p-500-stocks-daily-historical-data-10-years) (Kaggle), covering Dec 2015 – Dec 2025
 - 501 individual per-ticker CSVs (`Date, Close, High, Low, Open, Volume`), merged in Python into a single dataset (~1.22 million rows)
