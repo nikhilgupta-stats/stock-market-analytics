@@ -25,7 +25,7 @@ Investors and analysts need to understand not just which stocks performed well, 
 - Note: this is U.S. equity data (S&P 500), used here for broad availability and recognizability of the companies involved — the same pipeline applies directly to other markets' data.
 
 ## Key Findings
-- NVDA was the top performer by raw cumulative return (+22,453%) over the 10-year window, but AVGO and PWR scored higher on a risk-adjusted basis — NVDA's return came with meaningfully higher volatility.
+- NVDA led on both raw cumulative return (+22,453%) and the risk-adjusted metric (7,145.6) — its volatility was high in absolute terms but not high enough, relative to its return, to lose the top spot. The risk-adjusted ranking mainly compresses the field below NVDA: AMD moves from 2nd by risk-adjusted return despite ranking well behind AVGO, AXON, and ANET on raw return, and lower-volatility names like PWR and KLAC climb into the top 10 despite far smaller raw returns.
 - $100 invested in NVDA in Dec 2015 would be worth ~$22,553 by Dec 2025; the same $100 in KHC (Kraft Heinz) would be worth only ~$53.
 - The most volatile stocks in the dataset (SNDK, COIN, APP, HOOD, MRNA) span crypto, fintech, and high-growth names — largely distinct from the top performers by raw return.
 - Mega-cap tech stocks (AAPL, MSFT, GOOGL, META, AMZN) show moderate positive correlation with each other (~0.5–0.7) in daily returns, while KHC and PCG show weak correlation with the broader group, consistent with their sector/situation-specific drivers rather than broad market movement.
