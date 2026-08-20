@@ -51,9 +51,21 @@ stock-market-analytics/
 
 ```
 
+
 ## Excel Workbook Contents
 - **Summary** — All 501 tickers ranked by cumulative return, with volatility and average volume; includes a volatility bar chart (Top 15 most volatile stocks)
+
+  ![Top 15 Most Volatile Stocks](Charts/Top_15_Most_Volatile_Stocks.png)
+
 - **Detail_12_Tickers** — Full daily price history, daily returns, and 50/200-day moving averages for 12 selected companies; includes an NVDA price/moving-average trend chart
+
+  ![NVDA Price vs Moving Averages](Charts/NVDA_Price_vs_Moving_Averages.png)
+
 - **Growth_Comparison** — Indexed "Growth of $100" comparison across 5 contrasting tickers (NVDA, TSLA, AAPL, KHC, PCG) on a log-scale chart
+
+  ![Growth of $100 Invested](Charts/Growth_Of_$100_Invested.png)
+
 - **Summary_RiskAdjusted** — All 501 tickers re-ranked by a simplified risk-adjusted return metric (cumulative return ÷ volatility)
 - **Correlation_Matrix** — Daily-return correlation matrix across the 12 tracked tickers, with a conditional-formatting heatmap
+
+  ![Correlation Matrix Heatmap](Charts/Correlation_Matrix_Heatmap.png)
